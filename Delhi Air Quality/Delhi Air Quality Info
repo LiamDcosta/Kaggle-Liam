@@ -1,0 +1,4 @@
+Predicting Air Quality Index in Delhi based on various pollutant levels.
+This Project Explores the Air quality in Delhi, looking at the pollutant levels over the year, their relation to each other, and making a model to predict the Air Quality Index value.
+As someone interested in the Environment, I am interested in using data science to decrease the amount of air pollution, which causes Asthma and other harmful side effects.
+I used Python.Numpy,pandas,matplotlib and seaborn to analyse the dataset and Scikit-learn to create the machine learning model. I got the dataset from kaggle.
