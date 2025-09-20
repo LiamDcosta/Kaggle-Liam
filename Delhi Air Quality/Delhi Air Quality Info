@@ -1,40 +1,36 @@
-# 📝 Draft README for **Delhi Air Quality Project**
-
-```markdown
 # 🌫 Delhi Air Quality Analysis
 
-## 📌 Overview
-This project analyses air pollution levels in Delhi using time series data, exploring seasonal patterns, pollutant correlations, and potential forecasting.
+## 🔍 Overview
+- **Goal:** Analyze air pollution trends and seasonal patterns in Delhi.  
+- **Why it matters:** Air quality impacts health and quality of life. Time series analysis helps understand patterns and identify periods of high pollution.
 
-## 💡 Motivation
-Air quality is a pressing issue in India and globally. This project helped me apply time series techniques and data visualisation to environmental data, linking personal interest in current affairs with practical analysis.
+## 📂 Dataset
+- **Source:** [Kaggle – Delhi Air Quality Dataset](https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india)  
+- **Size & Features:** Hourly pollutant readings (PM2.5, PM10, NO2, CO, etc.) over multiple years.  
+- **Preprocessing:** checked missing values, handled outliers.
 
-## 🧰 Tools & Technologies
-- Python (pandas, matplotlib, seaborn, numpy,ski-kit learn, tensorflow)
-- graphs, histogram, boxplots
-- model: tensorflow
+## ⚙️ Methods & Tools
+- **Languages/Libraries:** Python, pandas, matplotlib, seaborn, sci-kit learn, tensorflow.
+- **Techniques:** Time series analysis, rolling averages, seasonal decomposition  
+- **Evaluation:** Visual inspection and trend analysis  
 
-## 📁 Dataset
-- Source: [Kaggle – Delhi Air Quality Dataset](https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india)
+## 📈 Results
+- PM2.5 levels peaked during winter months.  
+- Strong correlation observed between PM2.5 and PM10 levels.  
+- Patterns highlighted pollution spikes during festival seasons.  
+- strong correlation between AQI, and PM2.5,PM10 and CO levels.
 
-## 🔎 Methodology
-1. Load and clean the dataset (handle missing timestamps, outliers)  
-2. Perform Exploratory Data Analysis (EDA): pollutant trends, correlations  
-3. Plot seasonal variation (hourly, daily, monthly patterns)  
-4. Create and Evalutate model
+## 💡 Learning Outcomes
+- Improved skills in time series data handling.  
+- Learned to visualize and interpret seasonal trends and correlations.  
+- Developed ability to clean and process environmental datasets.
 
-## 📊 Results
-- Key pollutants: PM2.5, PM10, CO
-- Seasonal pattern: highest AQI in Winter, Lowest in Summer.
-- Correlation found between [pollutant1] and [pollutant2]  
-- Forecast model achieved RMSE = 0.092 (if attempted)  
-
-## 🧠 Reflections  
-- Clear seasonal spikes were visible.  
-- Next step: compare Delhi with other Indian cities or global cities.  
+## 🚀 Next Steps
+- Forecast future pollutant levels using ARIMA or Prophet.  
+- Compare Delhi’s air quality trends with other major cities.  
 
 ## 📍 How to Run
-1. Install dependencies:  
-   ```bash
-   pip install pandas matplotlib seaborn
-Open and run the notebook delhi_air_quality.ipynb.
+1. Install dependencies:
+```bash
+pip install pandas matplotlib seaborn
+Open and run notebooks/delhi_air_quality.ipynb.
