@@ -20,10 +20,6 @@
 - **Best Model:** both models have same accuracy  
 - **Accuracy:** 98% 
 
-## 🎨 Visuals
-- Confusion Matrix: `results/confusion_matrix.png`  
-- Feature Importance: `results/feature_importance.png`  
-
 ## 💡 Learning Outcomes
 - Practiced classification algorithms and feature selection.  
 - Learned to evaluate models.  
