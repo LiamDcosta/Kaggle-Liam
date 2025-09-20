@@ -1,7 +1,38 @@
-Predicting Wine Quality from range of chemical properties.
-This Project Explores the Wine quality of various red wines, looking at the properties, such as pH, citric acid levels and nitric acid levels.
-As someone interested in the Chemical Properties., I was interested in using data science to see how they impact the suggested wine quality.
-I used Python.Numpy,pandas,matplotlib and seaborn to analyse the dataset and Scikit-learn, and tensor flow to create the machine learning model. I got the dataset from kaggle.
-the dataset is from https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009
-i Collected the data from kaggle. I analysed the data, then created a machine learning model. I made charts for my analysis,and made a graph to look at the accuracy of my model
-My model was pretty accurate. Quality had some negative correlation to volatile acidity, but not much other correlation.
+# 🍷 Wine Quality Prediction
+
+## 📌 Overview
+This project predicts wine quality based on physicochemical properties using regression and classification models.
+
+## 💡 Motivation
+Wine quality prediction is a classic machine learning dataset, useful for learning regression techniques and interpreting feature importance in real-world data.
+
+## 🧰 Tools & Technologies
+- Python (pandas, numpy, scikit-learn, seaborn, matplotlib,tensorflow)
+- Models: Tensor Flow
+- Metrics: MAE, R² (for regression)
+
+## 📁 Dataset
+- Source: [Kaggle – Wine Quality Dataset](https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009)
+
+## 🔎 Methodology
+1. Load and explore dataset  
+2. Data cleaning and preprocessing  
+3. EDA: histograms, correlations, heatmap  
+4. Split into train/test sets  
+5. Train models
+6. Evaluate using MAE, R²  
+7. Analyse feature importance  
+
+## 📊 Results
+- MAE: 0.04
+- R² Score: 74.8%  
+- Key features affecting wine quality: Volatile acidity had most correlation, but even then only moderate correleation.
+
+## 🧠 Reflections
+- Next step: treat wine quality as a classification problem (good vs bad) for easier interpretability. Use more models, such as Random Forest of Logistic Regression.
+
+## 📍 How to Run
+1. Install dependencies:  
+   ```bash
+   pip install pandas scikit-learn matplotlib seaborn
+Run the notebook wine_quality.ipynb.
