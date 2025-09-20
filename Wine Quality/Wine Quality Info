@@ -1,0 +1,7 @@
+Predicting Wine Quality from range of chemical properties.
+This Project Explores the Wine quality of various red wines, looking at the properties, such as pH, citric acid levels and nitric acid levels.
+As someone interested in the Chemical Properties., I was interested in using data science to see how they impact the suggested wine quality.
+I used Python.Numpy,pandas,matplotlib and seaborn to analyse the dataset and Scikit-learn, and tensor flow to create the machine learning model. I got the dataset from kaggle.
+the dataset is from https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009
+i Collected the data from kaggle. I analysed the data, then created a machine learning model. I made charts for my analysis,and made a graph to look at the accuracy of my model
+My model was pretty accurate. Quality had some negative correlation to volatile acidity, but not much other correlation.
