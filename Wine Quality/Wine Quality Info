@@ -1,38 +1,37 @@
+# 3️⃣ Wine Quality Prediction
+
+```markdown
 # 🍷 Wine Quality Prediction
 
-## 📌 Overview
-This project predicts wine quality based on physicochemical properties using regression and classification models.
+## 🔍 Overview
+- **Goal:** Predict wine quality based on physicochemical properties.  
+- **Why it matters:** Quality assessment helps producers and consumers; regression/classification models provide practical ML experience.
 
-## 💡 Motivation
-Wine quality prediction is a classic machine learning dataset, useful for learning regression techniques and interpreting feature importance in real-world data.
+## 📂 Dataset
+- **Source:** [Kaggle – Wine Quality Dataset](https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009)  
+- **Size & Features:** 1,599 red wine samples, 12 features (fixed acidity, volatile acidity, citric acid, residual sugar, chlorides, free sulfur dioxide, total sulfur dioxide, density, pH, sulphates, alcohol, quality)  
+- **Preprocessing:** Checked for missing values, normalized continuous variables, and handled skewed distributions.
 
-## 🧰 Tools & Technologies
-- Python (pandas, numpy, scikit-learn, seaborn, matplotlib,tensorflow)
-- Models: Tensor Flow
-- Metrics: MAE, R² (for regression)
+## ⚙️ Methods & Tools
+- **Languages/Libraries:** Python, pandas, scikit-learn, matplotlib, seaborn, tensorflow
+- **Models / Techniques:** Tensorflow Model
+- **Evaluation:** MAE, R²  
 
-## 📁 Dataset
-- Source: [Kaggle – Wine Quality Dataset](https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009)
+## 📈 Results
+- **Key Insights:** volatile acidity had the largest influence on wine quality.  
 
-## 🔎 Methodology
-1. Load and explore dataset  
-2. Data cleaning and preprocessing  
-3. EDA: histograms, correlations, heatmap  
-4. Split into train/test sets  
-5. Train models
-6. Evaluate using MAE, R²  
-7. Analyse feature importance  
+## 💡 Learning Outcomes
+- Learned tensorflow modelling and evaluation metrics.  
+- Practiced feature importance interpretation.  
+- Developed skills in handling and preprocessing numeric datasets.
 
-## 📊 Results
-- MAE: 0.04
-- R² Score: 74.8%  
-- Key features affecting wine quality: Volatile acidity had most correlation, but even then only moderate correleation.
-
-## 🧠 Reflections
-- Next step: treat wine quality as a classification problem (good vs bad) for easier interpretability. Use more models, such as Random Forest of Logistic Regression.
+## 🚀 Next Steps
+- Convert problem into classification (good vs bad wine).  
+- Explore ensemble methods for improved predictive performance.  
+- Add more models, such as regression models.
 
 ## 📍 How to Run
-1. Install dependencies:  
-   ```bash
-   pip install pandas scikit-learn matplotlib seaborn
-Run the notebook wine_quality.ipynb.
+1. Install dependencies:
+```bash
+pip install pandas scikit-learn matplotlib seaborn
+Open and run notebooks/wine_quality.ipynb.
