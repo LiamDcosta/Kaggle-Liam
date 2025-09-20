@@ -1,35 +1,39 @@
+1️⃣ Breast Cancer Classification
+
 # 🔬 Breast Cancer Classification
 
-## 📌 Overview
-This project uses the Breast Cancer Wisconsin dataset to classify tumours as malignant or benign using supervised learning models.
+## 🔍 Overview
+- **Goal:** Classify tumors as malignant or benign using supervised learning models.  
+- **Why it matters:** Early and accurate detection can save lives. This project helps practice classification, feature engineering, and model evaluation.
 
-## 💡 Motivation
-Medical datasets provide a meaningful challenge for practising classification techniques. Early and accurate diagnosis is crucial in healthcare, so this project shows how machine learning can support decision-making.
+## 📂 Dataset
+- **Source:** [Kaggle – Breast Cancer Wisconsin (Diagnostic)](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)  
+- **Size & Features:** ~569 rows, 32 features including radius, texture, perimeter, area, smoothness, etc.  
+- **Preprocessing:** Removed ID column, handled missing values, scaled features where needed.
 
-## 🧰 Tools & Technologies
-- Python (pandas, numpy, scikit-learn,matplotlib,seaborn)
-- Models: Logistic Regression, Random Forest
-- Visualisation: matplotlib, seaborn
+## ⚙️ Methods & Tools
+- **Languages/Libraries:** Python, pandas, NumPy, scikit-learn, matplotlib, seaborn  
+- **Models / Techniques:** Logistic Regression, Random Forest 
+- **Evaluation:** : boxplot
 
-## 📁 Dataset
-- Source: [Kaggle – Breast Cancer Wisconsin (Diagnostic)](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
+## 📈 Results
+- **Best Model:** both models have same accuracy  
+- **Accuracy:** 98% 
 
-## 🔎 Methodology
-1. Load and inspect dataset  
-2. Preprocess data (remove ID column, scale features if necessary)  
-3. Split into train/test sets  
-4. Train models (Logistic Regression, Random Forest, etc.)  
-5. Evaluate models
-6. Compare performance and visualise results  
+## 🎨 Visuals
+- Confusion Matrix: `results/confusion_matrix.png`  
+- Feature Importance: `results/feature_importance.png`  
 
-## 📊 Results
-- Both Models were very accurate, both had over 97% of tumors identified correctly.
+## 💡 Learning Outcomes
+- Practiced classification algorithms and feature selection.  
+- Learned to evaluate models.  
 
-## 🧠 Reflections
-- Future work: try cross-validation, hyperparameter tuning, and gradient boosting models.
+## 🚀 Next Steps
+- Hyperparameter tuning and cross-validation.  
+- Compare additional tree-based models like XGBoost or Gradient Boosting.  
 
 ## 📍 How to Run
-1. Install dependencies:  
-   ```bash
-   pip install pandas scikit-learn matplotlib seaborn
-Run the notebook breast_cancer.ipynb in Jupyter or Google Colab.
+1. Install dependencies:
+```bash
+pip install pandas scikit-learn matplotlib seaborn
+Open and run notebooks/breast_cancer.ipynb.
